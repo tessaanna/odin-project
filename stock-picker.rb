@@ -13,9 +13,8 @@ is the last day or the highest day is the first day.
 stocks = [17, 4, 9, 4, 5, 10, 100, 1]
 
 #calculate max day
-#max day is best day to buy
-#new array is max day and remainder of days
-#sell day is after max day
+#max day is best day to sell
+#sell day (min) is after max day
 
 def stock_picker(your_array)
   buy_day = your_array.each_with_index.min[1]
